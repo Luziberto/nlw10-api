@@ -1,0 +1,24 @@
+{
+  "name": "nlw-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.2.4",
+    "prisma": "^4.16.2",
+    "prisma-erd-generator": "^1.8.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@prisma/client": "^4.0.0",
+    "fastify": "^4.20.0"
+  }
+}
